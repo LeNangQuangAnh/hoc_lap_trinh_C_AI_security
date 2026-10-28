@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x=5;
+    int a, b;
     printf("%s\n", "Hello, world!");
-    printf("%d\n%d\n", x, sizeof(x));
+    printf("%p\n%p\n", &a, &b);
     return 0;
 }
