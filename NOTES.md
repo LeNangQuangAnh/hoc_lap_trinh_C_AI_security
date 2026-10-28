@@ -10,3 +10,5 @@ git log
 git push -u 
 
 This is a test line.
+
+This is a line conflict.
