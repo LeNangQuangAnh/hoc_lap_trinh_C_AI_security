@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("%s", "Hello, world!");
+    int x=5;
+    printf("%s\n", "Hello, world!");
+    printf("%d\n%d\n", x, sizeof(x));
     return 0;
 }
